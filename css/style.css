@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.banner{
+	background: url('../images/banner.jpg');
+	background-repeat:no-repeat ;
+	background-size:cover ;
+	height:100vh ;
+	background-position:center ;
+}
+.new-logo{
+}
+.menu-parent span{
+     color:white ;
+     font-size:14px ;
+     font-family: 'Poppins', sans-serif;
+     text-transform: capitalize;
+     padding-right:30px;
+
+}
+.menu-parent{
+	display: flex;
+	justify-content:right;
+	align-items:center ;
+}
+.today-button{
+	border:none ;
+	padding-top:10px ;
+	padding-bottom:10px ;
+	padding-left:28px ;
+	padding-right:28px ;
+	border-radius:50px;
+}
+.my-new-house{
+	font-size:72px ;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	text-transform: capitalize;
+
+}
+.nice-house-parent{
+	height:700px ; 
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+
+
+}
+.single-theme{
+	color:white ;
+	font-size:24px ;
+	font-weight:300 ;
+    font-family: 'Roboto', sans-serif;
+    margin-top:24px ;
+    margin-bottom:35px ;
+}
+.me-free{
+	padding-top:13px ;
+	padding-bottom:13px ;
+	width:201px ;
+	border: none;
+	border-radius:4px;
+	background-color: #ff5f5c;
+	color: white;
+}
+.new-box-parent{
+     padding-top:40px ;
+     padding-bottom:90px ;
+     background-color:white ;
+     text-align:center ;
+     border-radius:6px ; 
+     padding-left: 40px;   
+     padding-right: 40px;   
+}
+.new-make{
+	color: #222222;
+	font-size:24px ;
+	font-family: 'Poppins', sans-serif;
+
+}
+.fill-out{
+	color:#666666 ;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom:44px ;
+}
+.hello-input{
+	padding-left:15px ;
+	padding-top:8px ;
+	padding-bottom:8px ;
+	width:370px ;
+	display:block ;
+	margin-bottom:19px ;
+	border-color: #eaeaea;
+	border-width: 1px;
+	border-style:solid ;
+	border-radius:3px ;	
+}
+.form-new-parent{
+	display: flex;
+	justify-content: center;
+	align-items:center ;
+
+}
+.message{
+	padding-left:15px ;
+	padding-top:8px ;
+	padding-bottom:8px ;
+	width:370px ;
+	display:block ;
+	margin-bottom:19px ;
+	border-color: #eaeaea;
+	border-width: 1px;
+	border-style:solid ;
+	border-radius:3px ;
+
+}
+.im-agree{
+	display: flex;
+	align-items:baseline ;
+	color: #666666;
+}
+.level{
+	text-align: left;
+	margin-left: 4px;
+}
+.my-new-submit{
+	padding-top:13px ;
+	padding-bottom:13px ;
+	text-align: center;
+	background-color:#ff5f5c ;
+	width:100% ;
+	border-radius:4px ;
+	border: none;
+	color: white;
+	margin-top:44px ;
+
+}
+.mera-leader-tag{
+	padding-top:140px ;
+	padding-bottom:140px ;
+
+}
+.new-kaptain{
+     text-align: center;
+}
+.mera-new-ghar{
+	color: #222222;
+	font-size:40px ;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 30px;
+}
+.mera-chota-lekha{
+	color: #666666;
+	font-size:18px ;
+	font-family: 'Roboto', sans-serif;
+}
+.mera-chota-button{
+	color: #222222;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	box-shadow:-1px 2px 4px -2px ;
+}
+.number-code{
+	color: #222222;
+	font-family: 'Poppins', sans-serif;
+	font-size:60px ;
+}
+.new-feet{
+	color: #666666;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+.hello-code{
+	background-color:#ffffff ;
+	border-color:#ececec;
+	border-style:solid ;
+	border-width:2px ;
+	padding-top:28px ;
+	padding-bottom: 28px;
+	padding-left:18px ;
+	padding-right: 18px ;
+	margin-left:32px;
+	margin-right:32px ;
+	border-radius:7px;
+	margin-top:68px;
+	
+}
+.hello-code i{
+	background-color:#ffeaea ;
+	padding-top:13px ;
+	padding-bottom:13px ;
+	padding-left:13px ;
+	padding-right:13px ;
+	font-size: 22px;
+	color: #ff5f5c;
+	border-radius:50px ;
+}
+.omg-code{
+	justify-content:center ;
+	align-items:center;
+}
