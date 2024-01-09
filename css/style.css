@@ -167,6 +167,7 @@ font-family: 'Roboto', sans-serif;
 	font-family: 'Roboto', sans-serif;
 	border: none;
 	box-shadow:-1px 2px 4px -2px ;
+	background-color: white;
 }
 .number-code{
 	color: #222222;
@@ -178,7 +179,7 @@ font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 }
-.hello-code{
+.hello-code {
 	background-color:#ffffff ;
 	border-color:#ececec;
 	border-style:solid ;
@@ -190,8 +191,7 @@ font-family: 'Roboto', sans-serif;
 	margin-left:32px;
 	margin-right:32px ;
 	border-radius:7px;
-	margin-top:68px;
-	
+	margin-top:68px; 	
 }
 .hello-code i{
 	background-color:#ffeaea ;
@@ -206,4 +206,74 @@ font-family: 'Roboto', sans-serif;
 .omg-code{
 	justify-content:center ;
 	align-items:center;
+}
+.my-room-designs-leader{
+	padding-top:140px ;
+	padding-bottom:140px ;
+
+}
+.my-new-room{
+	color: #222222;
+	font-size: 36px;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom:13px;
+}
+.my-nice-chota-lekha{
+	color: #666666;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	line-height:30px;
+}
+.my-new-button{
+	color: #ffffff;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	background-color:#ff5f5c;
+	padding-top:11px ;
+	padding-bottom:11px ;
+	padding-left:36px ;
+	padding-right:36px ;
+	border: none;
+	text-align: center;
+	border-radius: 3px;
+	text-transform: capitalize;
+}
+.my-hello-image-leader{
+     padding-top:12px ;
+     padding-bottom:12px ;
+     border-color:#e1e1e1 ;
+     border-style:solid ;
+     border-width:1px ;
+     border-top: none;
+     text-align: center;
+     overflow: hidden;
+}
+.my-living-room{
+	color: #222222;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	margin-top:15px ;
+	margin-bottom:38px ;
+}
+.mera-btfl-button{
+	color: #222222;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: capitalize;
+	border: none;
+	box-shadow: 1px 3px 6px -4px;
+	margin-bottom: 20px;
+}
+.my-new-chair-img{
+	height:245px;
+	width:420px ;
+}
+.my-cute-img img{
+	height:245px ;
+	width:40px ;
+}
+.my-cute-img{
+	border-color:#e1e1e1 ;
+	border-style:solid ;
+	border-width:1px ;
 }
