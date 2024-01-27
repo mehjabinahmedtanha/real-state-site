@@ -1,279 +1,351 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /*
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
-.banner{
-	background: url('../images/banner.jpg');
-	background-repeat:no-repeat ;
-	background-size:cover ;
-	height:100vh ;
-	background-position:center ;
+.banner {
+  background: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
 }
-.new-logo{
+.new-logo {
 }
-.menu-parent span{
-     color:white ;
-     font-size:14px ;
-     font-family: 'Poppins', sans-serif;
-     text-transform: capitalize;
-     padding-right:30px;
-
+.menu-parent span {
+  color: white;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  padding-right: 30px;
 }
-.menu-parent{
-	display: flex;
-	justify-content:right;
-	align-items:center ;
+.menu-parent {
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
-.today-button{
-	border:none ;
-	padding-top:10px ;
-	padding-bottom:10px ;
-	padding-left:28px ;
-	padding-right:28px ;
-	border-radius:50px;
+.today-button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 50px;
 }
-.my-new-house{
-	font-size:72px ;
-	color: white;
-	font-family: 'Poppins', sans-serif;
-	text-transform: capitalize;
-
+.my-new-house {
+  font-size: 72px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
 }
-.nice-house-parent{
-	height:700px ; 
-	display: flex;
-	flex-direction:column;
-	justify-content: center;
-
-
+.nice-house-parent {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.single-theme{
-	color:white ;
-	font-size:24px ;
-	font-weight:300 ;
-    font-family: 'Roboto', sans-serif;
-    margin-top:24px ;
-    margin-bottom:35px ;
+.single-theme {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin-top: 24px;
+  margin-bottom: 35px;
 }
-.me-free{
-	padding-top:13px ;
-	padding-bottom:13px ;
-	width:201px ;
-	border: none;
-	border-radius:4px;
-	background-color: #ff5f5c;
-	color: white;
+.me-free {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 201px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff5f5c;
+  color: white;
 }
-.new-box-parent{
-     padding-top:40px ;
-     padding-bottom:90px ;
-     background-color:white ;
-     text-align:center ;
-     border-radius:6px ; 
-     padding-left: 40px;   
-     padding-right: 40px;   
+.new-box-parent {
+  padding-top: 40px;
+  padding-bottom: 90px;
+  background-color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
-.new-make{
-	color: #222222;
-	font-size:24px ;
-	font-family: 'Poppins', sans-serif;
-
+.new-make {
+  color: #222222;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
 }
-.fill-out{
-	color:#666666 ;
-	font-size: 14px;
-	font-family: 'Roboto', sans-serif;
-	padding-bottom:44px ;
+.fill-out {
+  color: #666666;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 44px;
 }
-.hello-input{
-	padding-left:15px ;
-	padding-top:8px ;
-	padding-bottom:8px ;
-	width:370px ;
-	display:block ;
-	margin-bottom:19px ;
-	border-color: #eaeaea;
-	border-width: 1px;
-	border-style:solid ;
-	border-radius:3px ;	
+.hello-input {
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 370px;
+  display: block;
+  margin-bottom: 19px;
+  border-color: #eaeaea;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
 }
-.form-new-parent{
-	display: flex;
-	justify-content: center;
-	align-items:center ;
-
+.form-new-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.message{
-	padding-left:15px ;
-	padding-top:8px ;
-	padding-bottom:8px ;
-	width:370px ;
-	display:block ;
-	margin-bottom:19px ;
-	border-color: #eaeaea;
-	border-width: 1px;
-	border-style:solid ;
-	border-radius:3px ;
-
+.message {
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 370px;
+  display: block;
+  margin-bottom: 19px;
+  border-color: #eaeaea;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
 }
-.im-agree{
-	display: flex;
-	align-items:baseline ;
-	color: #666666;
+.im-agree {
+  display: flex;
+  align-items: baseline;
+  color: #666666;
 }
-.level{
-	text-align: left;
-	margin-left: 4px;
+.level {
+  text-align: left;
+  margin-left: 4px;
 }
-.my-new-submit{
-	padding-top:13px ;
-	padding-bottom:13px ;
-	text-align: center;
-	background-color:#ff5f5c ;
-	width:100% ;
-	border-radius:4px ;
-	border: none;
-	color: white;
-	margin-top:44px ;
-
+.my-new-submit {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: center;
+  background-color: #ff5f5c;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  margin-top: 44px;
 }
-.mera-leader-tag{
-	padding-top:140px ;
-	padding-bottom:140px ;
-
+.mera-leader-tag {
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
-.new-kaptain{
-     text-align: center;
+.new-kaptain {
+  text-align: center;
 }
-.mera-new-ghar{
-	color: #222222;
-	font-size:40px ;
-	font-family: 'Poppins', sans-serif;
-	margin-bottom: 30px;
+.mera-new-ghar {
+  color: #222222;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
 }
-.mera-chota-lekha{
-	color: #666666;
-	font-size:18px ;
-	font-family: 'Roboto', sans-serif;
+.mera-chota-lekha {
+  color: #666666;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
-.mera-chota-button{
-	color: #222222;
-	font-size: 14px;
-	font-family: 'Roboto', sans-serif;
-	border: none;
-	box-shadow:-1px 2px 4px -2px ;
-	background-color: white;
+.mera-chota-button {
+  color: #222222;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  box-shadow: -1px 2px 4px -2px;
+  background-color: white;
 }
-.number-code{
-	color: #222222;
-	font-family: 'Poppins', sans-serif;
-	font-size:60px ;
+.number-code {
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
 }
-.new-feet{
-	color: #666666;
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
+.new-feet {
+  color: #666666;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 .hello-code {
-	background-color:#ffffff ;
-	border-color:#ececec;
-	border-style:solid ;
-	border-width:2px ;
-	padding-top:28px ;
-	padding-bottom: 28px;
-	padding-left:18px ;
-	padding-right: 18px ;
-	margin-left:32px;
-	margin-right:32px ;
-	border-radius:7px;
-	margin-top:68px; 	
+  background-color: #ffffff;
+  border-color: #ececec;
+  border-style: solid;
+  border-width: 2px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-left: 32px;
+  margin-right: 32px;
+  border-radius: 7px;
+  margin-top: 68px;
 }
-.hello-code i{
-	background-color:#ffeaea ;
-	padding-top:13px ;
-	padding-bottom:13px ;
-	padding-left:13px ;
-	padding-right:13px ;
-	font-size: 22px;
-	color: #ff5f5c;
-	border-radius:50px ;
+.hello-code i {
+  background-color: #ffeaea;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 22px;
+  color: #ff5f5c;
+  border-radius: 50px;
 }
-.omg-code{
-	justify-content:center ;
-	align-items:center;
+.omg-code {
+  justify-content: center;
+  align-items: center;
 }
-.my-room-designs-leader{
-	padding-top:140px ;
-	padding-bottom:140px ;
-
+.my-room-designs-leader {
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
-.my-new-room{
-	color: #222222;
-	font-size: 36px;
-	font-family: 'Poppins', sans-serif;
-	margin-bottom:13px;
+.my-new-room {
+  color: #222222;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 13px;
 }
-.my-nice-chota-lekha{
-	color: #666666;
-	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
-	line-height:30px;
+.my-nice-chota-lekha {
+  color: #666666;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
 }
-.my-new-button{
-	color: #ffffff;
-	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
-	background-color:#ff5f5c;
-	padding-top:11px ;
-	padding-bottom:11px ;
-	padding-left:36px ;
-	padding-right:36px ;
-	border: none;
-	text-align: center;
-	border-radius: 3px;
-	text-transform: capitalize;
+.my-new-button {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  background-color: #ff5f5c;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 36px;
+  padding-right: 36px;
+  border: none;
+  text-align: center;
+  border-radius: 3px;
+  text-transform: capitalize;
 }
-.my-hello-image-leader{
-     padding-top:12px ;
-     padding-bottom:12px ;
-     border-color:#e1e1e1 ;
-     border-style:solid ;
-     border-width:1px ;
-     border-top: none;
-     text-align: center;
-     overflow: hidden;
+.my-hello-image-leader {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-color: #e1e1e1;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 0px;
+  margin-left: 10px;
+  margin-right: 45px;
 }
-.my-living-room{
-	color: #222222;
-	font-size: 18px;
-	font-family: 'Poppins', sans-serif;
-	margin-top:15px ;
-	margin-bottom:38px ;
+.my-living-room {
+  color: #222222;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 38px;
 }
-.mera-btfl-button{
-	color: #222222;
-	font-size: 14px;
-	font-family: 'Roboto', sans-serif;
-	text-transform: capitalize;
-	border: none;
-	box-shadow: 1px 3px 6px -4px;
-	margin-bottom: 20px;
+.mera-btfl-button {
+  color: #222222;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  border: none;
+  box-shadow: 1px 3px 6px -4px;
+  margin-bottom: 20px;
 }
-.my-new-chair-img{
-	height:245px;
-	width:420px ;
+.my-new-chair-img {
+  height: 245px;
+  width: 482px;
+  padding-left: 9px;
 }
-.my-cute-img img{
-	height:245px ;
-	width:40px ;
+.hello-new-bed-img {
+  padding-left: 0px;
 }
-.my-cute-img{
-	border-color:#e1e1e1 ;
-	border-style:solid ;
-	border-width:1px ;
+.hello-new-border {
+  border-color: #e7e0e0;
+  border-style: dotted;
+  border-width: 7px;
+  border-top: none;
+}
+.my-room-designs-leader {
+  margin-top: 20px;
+}
+.hello-my-row {
+  margin-top: 66px !important;
+}
+.hello-my-new-border {
+  border-bottom-color: #cbcbcb;
+  border-bottom-style: dotted;
+  border-bottom-width: 6px;
+}
+.my-hello-agent {
+  color: #222222;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
+.meet-the-my-small-lekha {
+  color: #666666;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.hello-meet-parent {
+  text-align: center;
+}
+.my-new-meet-the-agent-tag {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.hi-smile-image {
+  height: 450px;
+  width: 650px;
+  padding-left: 9px;
+  margin-top: 70px;
+  border-radius: 3px;
+}
+.hello-agent-sarah {
+  color: #222222;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
+.smale-raiting {
+  color: #222222;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.new-book-button {
+  border-radius: 4px;
+}
+.sarah-leader {
+  background-color: whitesmoke;
+  height:510px;
+  width: 650px;
+  
+}
+.smile-right-item{
+  text-align: left;
+}
+.smile-title{
+  color:#222222;
+  font-size: 36px;
+  margin-bottom: 18px;
+  text-align:left;
+}
+.smile-list{
+  list-style: square;
+  text-align: left;
+  line-height:48px;
+}
+.smile-right-item{
+  display: flex;
+  align-items: center;
+  background-color: #F9F9F9;
+  padding-left:0 !important;
+}
+.smile-left-item{
+  padding-right:0!important;
+}
+.smile-right-wrapper{
+  padding-left: 50px;
 }
