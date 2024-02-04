@@ -349,3 +349,144 @@ font-family: 'Roboto', sans-serif;
 .smile-right-wrapper{
   padding-left: 50px;
 }
+.hello-sarah{
+  font-size: 36px;
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+
+}
+.hi-hello-list li{
+  list-style:square ;
+  text-align:left;
+  line-height:47px ;
+  color: #222222;
+  font-size:18px;
+  font-family: "Poppins", sans-serif;
+
+}
+.hi-hello-list li::marker{
+  color: #575555;
+}
+.sarah-kaptain{
+    background-color:#F9F9F9 ;
+    padding-left:99px!important;
+    display: flex;
+    align-items: center;
+}
+.hello-img-fluid{
+  padding-right: 0px!important;
+}
+.new-sarah-parent{
+ text-align: left;
+}
+.the-webby{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 62px;
+  column-gap:36px;
+}
+.the-webby-new-box{ 
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: #eaeaea;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.css-design{
+  font-size: 18px;
+  text-align: left;
+  padding-left: 22px;
+  padding-top: 20px;
+  color: white;
+  opacity: 0;
+}
+.the-webby-new-box:hover .css-design{
+  opacity: 1;
+}
+.hello-winner{
+  text-align: left;
+  padding-left: 22px;
+  color: white;
+  opacity: 0;
+}
+.the-webby-new-box:hover .hello-winner{
+  opacity: 1;
+
+}
+.the-webby-1{
+  background: url("../images/smile-item-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.the-webby-1:hover{
+  background-image: none;
+  background-color: #222;
+}
+
+.the-webby-2{
+  background-image: url("../images/smile-item-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.the-webby-2:hover{
+  background-image: none;
+  background-color: #222;
+}
+
+
+.the-webby-3{
+  background-image: url("../images/smile-item-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.the-webby-3:hover{
+  background-image: none;
+  background-color: #222;
+}
+
+.the-webby-4{
+  background-image: url("../images/smile-item-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.the-webby-4:hover{
+  background-image:none;
+  background-color:#222;
+
+}
+.the-webby-5{
+  background-image: url("../images/smile-item-6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.the-webby-5:hover{
+  background-image: none;
+  background-color: #222;
+
+
+}
+
+.hello-interior-parent{
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.hello-interior{
+  color:#222222;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
+.ok-interior{
+  color: #666666;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.hello-interior-kaptain{
+  text-align: center;
+}
